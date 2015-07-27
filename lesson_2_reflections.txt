@@ -9,3 +9,6 @@ Branches are helpful when attempting to mold the application with distinct featu
 
 How to the diagrams help you visualize the branch structure?
 The diagrams provide a clear visual representation of the specific locations where a progression of commits branch of from the main commit structure.  The diagrams add context to the log listings and helps a developer better understand how a new feature progression relates to the whole application.
+
+What is the result of merging two branches together? Wy doe we represent it in the diagram the way we do?
+Merging two branches causes the commits and their respective file changes from one branch being added to the existing commits on another branch.  The merged commits on the merged branch can be displayed with a log command but they will be shown in a chronological order based on the creation date of each respective commit.  This is in contrast to showing commits based on the parent-child genealogical order that existed before the merge. 
