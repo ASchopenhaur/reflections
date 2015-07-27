@@ -6,3 +6,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are helpful when attempting to mold the application with distinct features while at the same time keeping an unchanged master copy.  Examples of this are changing the application from English to a foreign language, or developing an easy mode version of a game application.  Branches allow application development to progress in a different path without altering the progression of the main application.  Once the branch is fully developed, tested, and accepted, it can be re-integrated into the main application as an additional feature.
+
+How to the diagrams help you visualize the branch structure?
+The diagrams provide a clear visual representation of the specific locations where a progression of commits branch of from the main commit structure.  The diagrams add context to the log listings and helps a developer better understand how a new feature progression relates to the whole application.
