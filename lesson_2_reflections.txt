@@ -1,0 +1,1 @@
+What happens when you initialize a repository? Why do you need to do it?  A system git file is created and git creates a repository structure with the files already in the directory.  This is a necessary first step before actually commencing version control through commit commands.

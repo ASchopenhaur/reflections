@@ -1,0 +1,17 @@
+How could having easy acces to the entire history of a file make you a more efficient programmer in the long term?
+Undboutedly, there will be times when any programmer will want to backtrack to a previous design state.  This could happen because certain changes have now broken the application and the programmer is having a hard time deciphering where things went wrong.  In other cases it might be that a change to the system is needed and the programmer must "rewind" the development clock to go to a state where the programmer will be better suited to move forward with the new design changes.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git vs having versions automatically saved, like Google docs does?
+The version control history will be easier to read and understand when the committs are initiated manually by a developer after each logic change that alters the software.  Automatic saving will not readily show a distinct progression in the software development and may result in more time lost trying to finding important committ points. 
+
+Why do you think some version control systems, like Git, allow saving multiplefiles in one commit, while others, like Google Docs, treat each file separately?
+The repository of files at each commit represents the application at a certain stage of development.  All the files are a part of the whole and it would be very difficult to get a sense of how the project was developing if each committ only saved those files that had changed.  It would be very inefficient to try to piece the application together from a series of committs when backtracking through an application's development.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log can be used to list the commit history and git diff can be used to pinpoint the exact changes from one commit to the next.
+
+How might using version control make you more confident to make changes that could break something?
+Using version control gives a developer the assurance that any catastrophic changes can easily be undone by simply backtracking to a commit point before a bug was introduced into the program.  Git version control also gives the developer the ability to quickly zero in on the specific changes that caused the breakdown.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I would like to try my hand at more complicated projects.  Now that I see how Git version control can help me restore a project after it has been broken by new changes,  I feel more confident that I can try new things without being restrained about how difficult it might be to restore a project.
