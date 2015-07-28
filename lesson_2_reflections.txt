@@ -12,3 +12,6 @@ The diagrams provide a clear visual representation of the specific locations whe
 
 What is the result of merging two branches together? Wy doe we represent it in the diagram the way we do?
 Merging two branches causes the commits and their respective file changes from one branch being added to the existing commits on another branch.  The merged commits on the merged branch can be displayed with a log command but they will be shown in a chronological order based on the creation date of each respective commit.  This is in contrast to showing commits based on the parent-child genealogical order that existed before the merge. 
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Git's automatic merging does a good job of sorting out which changes to keep and which to automatically discard.  A manual merge would undoubtedly take a large amount of time because the bookeeping in sorting out the files from the two branches would be tedious, laborious, and error-prone.  About the only advantage of doing a manual merge would be in resolving conflicting file-content.  A manual merge would resolve such conflicts before actually attempting to merge both files.
