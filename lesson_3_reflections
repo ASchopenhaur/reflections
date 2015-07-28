@@ -11,3 +11,6 @@ A fork is the copying of a depository from one Github account to another Github 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 A local copy of the remote state helps differentiate between the work done locally and the collaborative work done on other machines.  It also comes in handy when the collaborative work is ultimately merged with the local copy because it is easier to narrow done conflicts that might arise after an attempted merge.
+
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+Collaborating without GitHub would likely be accomplished by using emails and attachments.  It would probably be easier to send an email to a team member explaining what changes and additions are being requested.  This is true when compared to the time expended in mastering the rules and technical jargon of git commands.  Email collaboration might work out well in a very small project but it would be almost nearly impossible when working with numerous collaborators on a large project with many files.  Those types of projects require a good bookeeping and tracking system that synchronizes the development and merging of collaborative efforts.
