@@ -8,3 +8,6 @@ There might be situations where different people collaborating on a project will
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 A fork is the copying of a depository from one Github account to another Github account.  The copying is done entirely on the Github servers and the depositories on local computers are not amended or altered.  Cloning refers to copying a depository to a local computer.  The depository that is being copied can either reside on a Github server or on a local computer.  The important point is that the resultant copy will end up on a local computer.  A branch does not refer to the copying or cloning of files.  A branch is more of a deviation in the commit progressions.  It describes a commit progression that is connected but progressing independently of how commits are progressing on the main branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+A local copy of the remote state helps differentiate between the work done locally and the collaborative work done on other machines.  It also comes in handy when the collaborative work is ultimately merged with the local copy because it is easier to narrow done conflicts that might arise after an attempted merge.
