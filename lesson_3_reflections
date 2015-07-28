@@ -2,3 +2,6 @@ When would you want to use a remote repository rather than keeping all your work
 Using a remote repository comes in handy when files are going to be created on different computers and/or
 in different geographic locations.  If this is the case, the remote depository can serve as the central depository
 where work coming from different locations can be integrated into the whole application.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+There might be situations where different people collaborating on a project will push application modifications onto the remote despository.  In such cases it would be wise to be more discerning about what to pull from remote depository as opposed to simply pulling everything automatically without any filtering.
